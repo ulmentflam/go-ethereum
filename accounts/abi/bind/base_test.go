@@ -24,15 +24,15 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/ethereum/go-ethereum"
-	"github.com/ethereum/go-ethereum/accounts/abi"
-	"github.com/ethereum/go-ethereum/accounts/abi/bind"
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/hexutil"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/rlp"
 	"github.com/stretchr/testify/assert"
+	"github.com/ulmentflam/go-ethereum"
+	"github.com/ulmentflam/go-ethereum/accounts/abi"
+	"github.com/ulmentflam/go-ethereum/accounts/abi/bind"
+	"github.com/ulmentflam/go-ethereum/common"
+	"github.com/ulmentflam/go-ethereum/common/hexutil"
+	"github.com/ulmentflam/go-ethereum/core/types"
+	"github.com/ulmentflam/go-ethereum/crypto"
+	"github.com/ulmentflam/go-ethereum/rlp"
 )
 
 func mockSign(addr common.Address, tx *types.Transaction) (*types.Transaction, error) { return tx, nil }

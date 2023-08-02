@@ -20,11 +20,11 @@ import (
 	"math/big"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/crypto/kzg4844"
-	"github.com/ethereum/go-ethereum/event"
+	"github.com/ulmentflam/go-ethereum/common"
+	"github.com/ulmentflam/go-ethereum/core"
+	"github.com/ulmentflam/go-ethereum/core/types"
+	"github.com/ulmentflam/go-ethereum/crypto/kzg4844"
+	"github.com/ulmentflam/go-ethereum/event"
 )
 
 // Transaction is a helper struct to group together a canonical transaction with

@@ -24,11 +24,11 @@ import (
 	"net"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common/mclock"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/p2p/discover/v5wire"
-	"github.com/ethereum/go-ethereum/p2p/enode"
-	"github.com/ethereum/go-ethereum/p2p/enr"
+	"github.com/ulmentflam/go-ethereum/common/mclock"
+	"github.com/ulmentflam/go-ethereum/crypto"
+	"github.com/ulmentflam/go-ethereum/p2p/discover/v5wire"
+	"github.com/ulmentflam/go-ethereum/p2p/enode"
+	"github.com/ulmentflam/go-ethereum/p2p/enr"
 )
 
 // readError represents an error during packet reading.

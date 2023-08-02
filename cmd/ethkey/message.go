@@ -21,11 +21,11 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/ethereum/go-ethereum/accounts"
-	"github.com/ethereum/go-ethereum/accounts/keystore"
-	"github.com/ethereum/go-ethereum/cmd/utils"
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/crypto"
+	"github.com/ulmentflam/go-ethereum/accounts"
+	"github.com/ulmentflam/go-ethereum/accounts/keystore"
+	"github.com/ulmentflam/go-ethereum/cmd/utils"
+	"github.com/ulmentflam/go-ethereum/common"
+	"github.com/ulmentflam/go-ethereum/crypto"
 	"github.com/urfave/cli/v2"
 )
 

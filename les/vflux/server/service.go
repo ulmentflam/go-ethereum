@@ -22,11 +22,11 @@ import (
 	"sync"
 	"time"
 
-	"github.com/ethereum/go-ethereum/les/utils"
-	"github.com/ethereum/go-ethereum/les/vflux"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/p2p/enode"
-	"github.com/ethereum/go-ethereum/rlp"
+	"github.com/ulmentflam/go-ethereum/les/utils"
+	"github.com/ulmentflam/go-ethereum/les/vflux"
+	"github.com/ulmentflam/go-ethereum/log"
+	"github.com/ulmentflam/go-ethereum/p2p/enode"
+	"github.com/ulmentflam/go-ethereum/rlp"
 )
 
 type (

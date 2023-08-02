@@ -21,15 +21,15 @@ import (
 	"fmt"
 	"math/big"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/consensus"
-	"github.com/ethereum/go-ethereum/consensus/misc/eip1559"
-	"github.com/ethereum/go-ethereum/consensus/misc/eip4844"
-	"github.com/ethereum/go-ethereum/core/state"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/params"
-	"github.com/ethereum/go-ethereum/rpc"
-	"github.com/ethereum/go-ethereum/trie"
+	"github.com/ulmentflam/go-ethereum/common"
+	"github.com/ulmentflam/go-ethereum/consensus"
+	"github.com/ulmentflam/go-ethereum/consensus/misc/eip1559"
+	"github.com/ulmentflam/go-ethereum/consensus/misc/eip4844"
+	"github.com/ulmentflam/go-ethereum/core/state"
+	"github.com/ulmentflam/go-ethereum/core/types"
+	"github.com/ulmentflam/go-ethereum/params"
+	"github.com/ulmentflam/go-ethereum/rpc"
+	"github.com/ulmentflam/go-ethereum/trie"
 )
 
 // Proof-of-stake protocol constants.

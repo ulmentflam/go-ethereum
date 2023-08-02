@@ -24,11 +24,11 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common/mclock"
-	"github.com/ethereum/go-ethereum/ethdb"
-	"github.com/ethereum/go-ethereum/ethdb/memorydb"
-	"github.com/ethereum/go-ethereum/p2p/enode"
-	"github.com/ethereum/go-ethereum/p2p/enr"
+	"github.com/ulmentflam/go-ethereum/common/mclock"
+	"github.com/ulmentflam/go-ethereum/ethdb"
+	"github.com/ulmentflam/go-ethereum/ethdb/memorydb"
+	"github.com/ulmentflam/go-ethereum/p2p/enode"
+	"github.com/ulmentflam/go-ethereum/p2p/enr"
 )
 
 const (

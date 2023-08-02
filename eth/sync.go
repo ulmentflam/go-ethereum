@@ -21,11 +21,11 @@ import (
 	"math/big"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/rawdb"
-	"github.com/ethereum/go-ethereum/eth/downloader"
-	"github.com/ethereum/go-ethereum/eth/protocols/eth"
-	"github.com/ethereum/go-ethereum/log"
+	"github.com/ulmentflam/go-ethereum/common"
+	"github.com/ulmentflam/go-ethereum/core/rawdb"
+	"github.com/ulmentflam/go-ethereum/eth/downloader"
+	"github.com/ulmentflam/go-ethereum/eth/protocols/eth"
+	"github.com/ulmentflam/go-ethereum/log"
 )
 
 const (
